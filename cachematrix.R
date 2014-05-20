@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## calcultes the inverse of the special matrix object created by makeCacheMatrix,
+##cacheSolve calculates the inverse of the special matrix object created by makeCacheMatrix,
 ##checks if a value for the inverse has already been cached and if so, returns this value
 
 cacheSolve <- function(x, ...) {
